@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Clicker-Statss {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.clickBox {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 400px;
+  height: 320px;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.clickBox > p {
+  color:rgba(255, 255, 255, 0.349);
+  user-select: none;
+}
+
+.counter {
+  background-color: rgba(0, 0, 0, 0.185);
+  width: 100px;
+  height: 70px;
+  font-size: 20px;
+  margin-bottom: 2.6rem;
+  border-radius: 15px;
+  font-weight: 500;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  user-select: none;
+}
+
+.counter-numberr {
+  padding-top : 3px;
+  margin: 0;
+}
+
+.counter > p {
+  margin: 0;
+  font-weight: normal;
+  font-style: italic;
+}

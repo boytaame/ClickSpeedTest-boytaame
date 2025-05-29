@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Clicker-Stats {
+  display: flex;
+  gap: 40px;
+}
+
+.counter-number {
+  padding-top : 3px;
+  margin: 0;
+  font-size: 60px;
+}
+
+.counter-r {
+  background-image: linear-gradient(to bottom left, #2A7B9B, #57C785);
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 0px;
+}
+
+.counter-r2 {
+  background-image: linear-gradient(to bottom right, #b7dafa, #00b7ff);
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 0px;
+}
+
+.counter-r3 {
+  background-image: linear-gradient(to top right, #ecbc35, #da2929);
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 0px;
+}
+
+.counter > p {
+  margin: 0;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.caller {
+   margin: 0;
+   font-size: 25px;
+}
+
+.back {
+  margin-top: 30px;
+}
